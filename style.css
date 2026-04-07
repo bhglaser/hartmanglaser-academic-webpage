@@ -394,6 +394,42 @@ nav .nav-links a.active {
   font-weight: 500;
 }
 
+.pub-abstract {
+  margin-top: 0.5rem;
+}
+
+.pub-abstract summary {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--blue);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0;
+  user-select: none;
+}
+
+.pub-abstract summary:hover {
+  color: var(--blue-dark);
+}
+
+.pub-abstract summary::marker {
+  color: var(--blue);
+}
+
+.pub-abstract p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-top: 0.5rem;
+  padding-left: 0.25rem;
+  border-left: 2px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-alt);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
 /* ---- Service ---- */
 
 .service-list {
