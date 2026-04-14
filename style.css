@@ -438,14 +438,6 @@ nav .nav-links a.active {
   font-size: 0.95rem;
 }
 
-/* ---- About ---- */
-
-.about-text {
-  font-size: 1.05rem;
-  max-width: 650px;
-  line-height: 1.75;
-}
-
 /* ---- Footer ---- */
 
 footer {
