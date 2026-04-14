@@ -236,30 +236,6 @@ nav .nav-links a.active {
 
 /* ---- Research Narrative ---- */
 
-.research-themes {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.theme-card {
-  padding: 1.5rem;
-  background: var(--bg-alt);
-  border-radius: var(--radius);
-  border-left: 3px solid var(--blue);
-}
-
-.theme-card h3 {
-  margin-bottom: 0.5rem;
-  color: var(--blue-dark);
-}
-
-.theme-card p {
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-}
-
 /* ---- Impact Highlights ---- */
 
 .highlight-card {
@@ -516,10 +492,6 @@ footer .footer-info {
   h2 { font-size: 1.4rem; }
 
   .hero { padding: 3rem 0 2rem; }
-
-  .research-themes {
-    grid-template-columns: 1fr;
-  }
 
   nav .nav-links {
     display: none;
